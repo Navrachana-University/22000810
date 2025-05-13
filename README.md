@@ -13,6 +13,7 @@ Devta Lang is a custom-designed programming language depicting mytho-modern fusi
 
 
 • <b>Basic Constructs Supported:</b>
+    
     o Variable declarations and assignments (sthapit).
 
     o Arithmetic expressions.
@@ -29,6 +30,7 @@ Devta Lang is a custom-designed programming language depicting mytho-modern fusi
 
 
 • <b>Simple Syntax and Semantics:</b>
+    
     o The language supports integer variables, string printing, and basic control flows.
 
     o Comments using //.
@@ -38,6 +40,7 @@ Devta Lang is a custom-designed programming language depicting mytho-modern fusi
 
 
 <h1>💻 Technical Implementation:</h1>
+
 • <b>Lexical Analyzer:</b> Implemented using Flex to tokenize the Devta Lang keywords, identifiers, numbers, operators, and comments.
 
 • <b>Parser:</b> Implemented using Bison to parse the language constructs and generate actions such as evaluating expressions, printing values, and managing control structures.
@@ -48,6 +51,7 @@ Devta Lang is a custom-designed programming language depicting mytho-modern fusi
 
 <h1>🔄 Scope:</h1>
 <b>Devta Lang serves as an educational prototype to demonstrate:</b>
+
 
 • Lexical and syntax analysis.
 
@@ -67,6 +71,7 @@ The project supports basic interpreted execution and provides a simple interacti
 
 
 <h1>🖥 Commands to run Lex & YACC Program</h1>
+
 bison -d file_name.y
 
 flex file_name.l
