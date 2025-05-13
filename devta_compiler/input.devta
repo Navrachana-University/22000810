@@ -1,0 +1,19 @@
+om namah
+
+sthapit x = 10;
+sthapit y = 20;
+sthapit z = x + y;
+vachan z;
+
+yadi (x < y) {
+    vachan x;
+} anyatha {
+    vachan y;
+}
+karya myfunc() {
+    sthapit a = 5;
+    punah a;
+}
+ahvahan myfunc();
+
+smaran

@@ -1,0 +1,15 @@
+om namah
+
+sthapit a = 100;
+sthapit b = 20;
+
+sthapit sum = a + b;
+vachan sum;
+
+yadi (a < b) {
+    vachan a;
+} anyatha {
+    vachan b;
+}
+
+smaran
